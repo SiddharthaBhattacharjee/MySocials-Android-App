@@ -64,12 +64,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="30dp"
                     android:layout_marginRight="30dp"
+                    android:onClick="githubf"
                     app:srcCompat="@drawable/github" />
 
                 <ImageButton
                     android:id="@+id/imageButton10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:onClick="linkedinf"
                     app:srcCompat="@drawable/linkedin" />
             </TableRow>
 
@@ -109,12 +111,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="30dp"
                     android:layout_marginRight="30dp"
+                    android:onClick="twitterf"
                     app:srcCompat="@drawable/twitter" />
 
                 <ImageButton
                     android:id="@+id/imageButton12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:onClick="instagramf"
                     app:srcCompat="@drawable/insta" />
             </TableRow>
 
@@ -154,12 +158,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="30dp"
                     android:layout_marginRight="30dp"
+                    android:onClick="emailf"
                     app:srcCompat="@drawable/mail" />
 
                 <ImageButton
                     android:id="@+id/imageButton16"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:onClick="whatsaapf"
                     app:srcCompat="@drawable/whatsaap" />
 
             </TableRow>
@@ -175,19 +181,17 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
                     android:layout_marginLeft="30dp"
-                    android:layout_marginEnd="30dp"
-                    android:layout_marginRight="30dp"
-                    android:text="   Email" />
+                    android:text="        Email" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginLeft="45dp"
                     android:layout_marginEnd="30dp"
                     android:layout_marginRight="30dp"
-                    android:text="Whatsaap" />
+                    android:text="  Stackoverflow" />
             </TableRow>
 
         </LinearLayout>
